@@ -1,1 +1,1 @@
-https://Svitlana.Orz.github.io/rsschool-cv/cv
+https://Svitlana.Orz.github.io/rsschool-cv/
