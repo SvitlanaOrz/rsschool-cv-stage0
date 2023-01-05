@@ -21,7 +21,7 @@ body {
 }
 nav {
   background: var(--main-background-color);
-  padding: 42px 109px;
+  padding: 42px 109px 42px 111px;
   display: flex;
   justify-content: space-between;
 }
@@ -30,13 +30,13 @@ nav .logo_image {
   font-family: var(--inika-font-family);
   font-weight: 400;
   line-height: 21px;
-  padding-top: 7px;
+  padding-top: 10px;
 }
 
 nav li {
   list-style: none;
   display: inline;
-  margin-left: 46px;
+  margin-left: 43px;
 }
 
 nav ul {
@@ -46,13 +46,16 @@ nav ul {
 nav a {
   text-decoration: none;
   font-family: var(--inika-font-family);
+  font-style: normal;
   font-weight: 400;
   line-height: 50px;
+  font-size: 16px;
   color: #010201;
 }
 
 nav .home_link {
   color: var(--main-red-color);
+  font-weight: 700;
 }
 .welcome_section {
   background: var(--main-background-color);
@@ -97,8 +100,10 @@ nav .home_link {
   border-radius: 10px;
   font-family: var(--inter-font-family);
   font-weight: 400;
+  font-size: 16px;
   line-height: 20px;
-  padding: 14px 27px;
+  padding: 12px 27px;
+  color: #000000;
 }
 .welcome_section button:hover {
   cursor: pointer;
@@ -142,6 +147,7 @@ nav .home_link {
 
 .service_section .service_section_text {
   display: flex;
+  justify-content: space-between;
 }
 .service_section h2 {
   width: 306px;
@@ -149,8 +155,13 @@ nav .home_link {
   font-family: var(--inika-font-family);
   font-weight: 400;
   font-size: 40px;
-  margin: 0 142px 0 0;
+  margin: 0 140px 0 0;
 }
+.service_section .service_section_button_block {
+  margin-top: 29px;
+  margin-right: 215px;
+}
+
 .service_section button {
   border: 1px solid var(--main-red-color);
   border-radius: 5px;
@@ -158,10 +169,15 @@ nav .home_link {
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
-  padding: 12px 40px;
-  margin-right: 38px;
+  padding: 11px 38px;
   color: var(--main-red-color);
+  width: 161px;
 }
+.service_section .first_btn,
+.service_section .second_btn {
+  margin-right: 35px;
+}
+
 .service_section button:hover {
   cursor: pointer;
   border: 2px solid var(--main-red-color);
@@ -213,9 +229,17 @@ nav .home_link {
   font-family: var(--inter-font-family);
   font-weight: 700;
   font-size: 40px;
+  color: #000000;
 }
 .prices_section .prices {
-  line-height: 58px;
+  line-height: 48px;
+  margin: 0 0 60px 0;
+}
+.prices_section .gardeners {
+  line-height: 50px;
+  text-align: right;
+  width: 452px;
+  margin: 0 0 38px 0;
 }
 
 .prices_section .border_block {
@@ -223,13 +247,13 @@ nav .home_link {
   border-radius: 20px;
   padding: 34px 41px;
 }
-.prices_section .prices_button {
+.prices_section .prices_buttons {
   display: block;
   background: var(--main-background-color);
   border: 1px solid var(--main-background-color);
   border-radius: 20px;
   font-family: var(--inter-font-family);
-  padding: 16px 40px;
+  padding: 15px 40px;
   width: 250px;
   height: 50px;
   font-weight: 700;
@@ -241,11 +265,7 @@ nav .home_link {
 .prices_section .second_prices_button {
   margin-bottom: 32px;
 }
-.prices_section .gardeners {
-  line-height: 50px;
-  text-align: right;
-  width: 452px;
-}
+
 .prices_section .contact_button {
   border: 1px solid var(--main-red-color);
   border-radius: 5px;
@@ -279,7 +299,7 @@ nav .home_link {
   background: var(--main-background-color);
   display: flex;
   justify-content: space-between;
-  padding: 60px 109px 0;
+  padding: 53px 109px 0;
 }
 .contacts_section .pictures_contact_woman {
   width: 400px;
@@ -290,7 +310,7 @@ nav .home_link {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin: 0;
+  margin: 7px 0 0 46px;
 }
 .contacts_section button {
   background: #d6e7d2;
@@ -301,7 +321,7 @@ nav .home_link {
   line-height: 40px;
   letter-spacing: 0.05em;
   padding: 5px 35px 5px 20px;
-  margin-top: 72px;
+  margin-top: 95px;
   width: 450px;
   height: 50px;
   border: none;
@@ -333,9 +353,13 @@ footer a {
   font-size: 20px;
   line-height: 50px;
 }
+footer .rsschool {
+  margin-left: 15px;
+}
 
 footer ul {
   margin: 0;
+  padding: 9px 0;
 }
 
 footer li {
@@ -345,8 +369,8 @@ footer li {
   height: 32px;
 }
 
-footer .facebook,
+footer .pinterest,
 footer .telegram,
-footer .instagram {
-  margin-right: 20px;
+footer .facebook {
+  margin-left: 18px;
 }
