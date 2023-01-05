@@ -208,7 +208,8 @@ nav .home_link {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.prices_section h2 {
+.prices_section h2,
+.prices_section p {
   font-family: var(--inter-font-family);
   font-weight: 700;
   font-size: 40px;
@@ -321,12 +322,18 @@ footer {
 footer .year {
   margin: 0 20px;
 }
-footer span {
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+footer span,
+footer a {
   font-family: var(--inter-font-family);
   font-weight: 400;
   font-size: 20px;
   line-height: 50px;
 }
+
 footer ul {
   margin: 0;
 }
