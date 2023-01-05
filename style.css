@@ -1,0 +1,345 @@
+:root {
+  --main-green-color: #499a18;
+  --main-red-color: #e06733;
+  --main-background-color: #edf2ec;
+  --inika-font-family: "Inika", serif;
+  --inter-font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+  width: 1440px;
+}
+.green_text {
+  color: var(--main-green-color);
+}
+.red_text {
+  color: var(--main-red-color);
+}
+nav {
+  background: var(--main-background-color);
+  padding: 42px 109px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo_image {
+  font-family: var(--inika-font-family);
+  font-weight: 400;
+  line-height: 21px;
+  padding-top: 7px;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-left: 46px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: var(--inika-font-family);
+  font-weight: 400;
+  line-height: 50px;
+  color: #010201;
+}
+
+nav .home_link {
+  color: var(--main-red-color);
+}
+.welcome_section {
+  background: var(--main-background-color);
+}
+
+.welcome_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 62px 109px;
+}
+
+.welcome_section .leafs_picture {
+  width: 448.8px;
+  height: 407.36px;
+}
+.welcome_section h1 {
+  color: #717171;
+  font-family: var(--inter-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  margin: 36px 0 42px 0;
+}
+
+.welcome_section p {
+  color: #636060;
+  font-family: var(--inter-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  margin: 0 0 48px 0;
+}
+.welcome_section .text_in_welcome_section {
+  width: 549px;
+  height: 340px;
+}
+
+.welcome_section button {
+  border: 2px solid var(--main-red-color);
+  border-radius: 10px;
+  font-family: var(--inter-font-family);
+  font-weight: 400;
+  line-height: 20px;
+  padding: 14px 27px;
+}
+.welcome_section button:hover {
+  cursor: pointer;
+  border: 2px solid var(--main-red-color);
+  background-color: var(--main-red-color);
+  color: white;
+}
+
+.about_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 93px 109px;
+}
+
+.about_section .text_in_about_section {
+  width: 605px;
+  height: 350px;
+}
+.about_section h2 {
+  margin: 68px 0 40px 0;
+  font-family: var(--inika-font-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+.about_section p {
+  font-family: var(--inter-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+.about_section .houseplant_mostrella_picture {
+  width: 464px;
+  height: 479px;
+}
+.service_section {
+  background: var(--main-background-color);
+  padding: 40px 109px 121px;
+}
+
+.service_section .service_section_text {
+  display: flex;
+}
+.service_section h2 {
+  width: 306px;
+  height: 94px;
+  font-family: var(--inika-font-family);
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0 142px 0 0;
+}
+.service_section button {
+  border: 1px solid var(--main-red-color);
+  border-radius: 5px;
+  font-family: var(--inika-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 12px 40px;
+  margin-right: 38px;
+  color: var(--main-red-color);
+}
+.service_section button:hover {
+  cursor: pointer;
+  border: 2px solid var(--main-red-color);
+  background-color: var(--main-red-color);
+  color: white;
+}
+
+.service_section .service_section_pictures {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+.service_section img {
+  display: block;
+}
+.service_section h4,
+.service_section p {
+  text-align: center;
+  font-family: var(--inter-font-family);
+  line-height: 20px;
+}
+
+.service_section h4 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.service_section p {
+  font-weight: 400;
+  color: #717171;
+  margin: 10px 0 36px;
+}
+
+.service_section .image_border {
+  border: 1px solid #e3e1d5;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 55px;
+}
+
+.prices_section {
+  padding: 40px 109px 115px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.prices_section h2 {
+  font-family: var(--inter-font-family);
+  font-weight: 700;
+  font-size: 40px;
+}
+.prices_section .prices {
+  line-height: 58px;
+}
+
+.prices_section .border_block {
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+  padding: 34px 41px;
+}
+.prices_section .prices_button {
+  display: block;
+  background: var(--main-background-color);
+  border: 1px solid var(--main-background-color);
+  border-radius: 20px;
+  font-family: var(--inter-font-family);
+  padding: 16px 40px;
+  width: 250px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: left;
+}
+.prices_section .first_prices_button,
+.prices_section .second_prices_button {
+  margin-bottom: 32px;
+}
+.prices_section .gardeners {
+  line-height: 50px;
+  text-align: right;
+  width: 452px;
+}
+.prices_section .contact_button {
+  border: 1px solid var(--main-red-color);
+  border-radius: 5px;
+  font-family: var(--inika-font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 12px 30px;
+  color: var(--main-red-color);
+  display: block;
+  margin: 0 0 0 auto;
+}
+.prices_section .contact_button:hover {
+  cursor: pointer;
+  border: 2px solid var(--main-red-color);
+  background-color: var(--main-red-color);
+  color: white;
+}
+
+.prices_section .accordion_btn {
+  float: right;
+}
+
+.prices_section .leafs_picture {
+  width: 152px;
+  height: 174.99px;
+  display: block;
+  margin: 39px 0 0 auto;
+}
+.contacts_section {
+  background: var(--main-background-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 109px 0;
+}
+.contacts_section .pictures_contact_woman {
+  width: 400px;
+  height: 496.99px;
+}
+.contacts_section h2 {
+  font-family: var(--inika-font-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0;
+}
+.contacts_section button {
+  background: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: var(--inter-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  padding: 5px 35px 5px 20px;
+  margin-top: 72px;
+  width: 450px;
+  height: 50px;
+  border: none;
+  text-align: left;
+}
+.contacts_section .accordion_btn {
+  float: right;
+  width: 16px;
+  height: 16px;
+  margin-top: 12px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 109px;
+}
+footer .year {
+  margin: 0 20px;
+}
+footer span {
+  font-family: var(--inter-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+footer ul {
+  margin: 0;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  width: 32px;
+  height: 32px;
+}
+
+footer .facebook,
+footer .telegram,
+footer .instagram {
+  margin-right: 20px;
+}
