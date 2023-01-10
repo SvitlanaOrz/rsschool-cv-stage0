@@ -64,7 +64,7 @@ nav .home_link {
 .welcome_section {
   display: flex;
   justify-content: space-between;
-  padding: 62px 109px;
+  padding: 62px 109px 50px;
 }
 
 .welcome_section .leafs_picture {
@@ -142,7 +142,7 @@ nav .home_link {
 }
 .service_section {
   background: var(--main-background-color);
-  padding: 40px 109px 121px;
+  padding: 40px 109px 70px;
 }
 
 .service_section .service_section_text {
@@ -180,7 +180,7 @@ nav .home_link {
 
 .service_section button:hover {
   cursor: pointer;
-  border: 2px solid var(--main-red-color);
+  border: 1px solid var(--main-red-color);
   background-color: var(--main-red-color);
   color: white;
 }
@@ -280,7 +280,7 @@ nav .home_link {
 }
 .prices_section .contact_button:hover {
   cursor: pointer;
-  border: 2px solid var(--main-red-color);
+  border: 1px solid var(--main-red-color);
   background-color: var(--main-red-color);
   color: white;
 }
