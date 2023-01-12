@@ -53,10 +53,12 @@ nav a {
   color: #010201;
 }
 
-nav .home_link {
-  color: var(--main-red-color);
-  font-weight: 700;
+nav a:hover {
+color: var(--main-red-color);
+font-weight: 700;
+    
 }
+
 .welcome_section {
   background: var(--main-background-color);
 }
